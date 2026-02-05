@@ -1,0 +1,78 @@
+body.hacker {
+  background: black;
+  color: #00ff00;
+  font-family: Consolas, monospace;
+  text-align: center;
+}
+
+/* LOGIN */
+.login-box {
+  margin-top: 150px;
+}
+
+input {
+  background: black;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  font-size: 18px;
+  padding: 10px;
+}
+
+button {
+  background: black;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00ff00;
+  color: black;
+}
+
+/* TOP BAR */
+.top-bar {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 18px;
+}
+
+/* GOLD BUTTON */
+.gold-btn {
+  margin-top: 70px;
+  font-size: 18px;
+}
+
+/* GRID */
+.grid {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+/* CELL */
+.cell {
+  width: 120px;
+  height: 60px;
+  border: 1px solid #00ff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GOLD STATE */
+.gold {
+  background: gold;
+  color: black;
+  font-weight: bold;
+}
